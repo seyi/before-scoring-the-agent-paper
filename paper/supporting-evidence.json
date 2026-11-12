@@ -1,0 +1,57 @@
+{
+  "created_for": "Claude-review source/evidence checks; no new experiment or changed registered analysis",
+  "post_registration_descriptive_comparison": {
+    "interpretation": "Consistent with testing the global package; not proof of every pytest import or of patch semantic correctness.",
+    "released_base_reference_acceptance_identical_tasks": 8,
+    "released_probe_location_class": "System dist-packages, not user-site; no claim about every pytest import.",
+    "released_requests_probe_locations": {
+      "/usr/local/lib/python3.12/dist-packages/requests/__init__.py": 48
+    },
+    "repository": "psf/requests",
+    "source": "Committed calibration-summary.json task_summaries",
+    "source_sha256": "91caa27ac31b9c53ce977150df11e116154b6e91b08844b912943858df75f080",
+    "tasks": 8
+  },
+  "prereg_sha": "52e0030deb8312c1c1d8abe804abfa6dbc2ae75b",
+  "released_source_checks": {
+    "manager_default_PYTHONPATH": "workspace root only",
+    "overlay_operation": "export PYTHONPATH=/workspace:/workspace/src; replaces the prior value for each exec command after logical-path translation",
+    "probe_interpreter_and_flags": "python3 -c; does not reproduce pytest-specific flags",
+    "pytest_flags": "-s; PYTHONSAFEPATH=1; PYTHONNOUSERSITE=1",
+    "pytest_inline_PYTHONPATH_assignment": false,
+    "pytest_interpreter_token": "python3",
+    "subprocess_source_sha256": "a26e9265d93f0387dd0a820ea451d1c530884bebca41583738f3ab2cc31df1f2",
+    "swegemma_version": "0.2.11",
+    "verification_source_sha256": "99e2a5fdab2be2b5e0388de29080da9d6e7003cf8b53299cda790464f4ecd2aa"
+  },
+  "result_commit": "dafa6a7c41aae0856593063e88b3f498eeaff837",
+  "saved_notebook_configuration": {
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "embedded_prereg_sha": "52e0030deb8312c1c1d8abe804abfa6dbc2ae75b",
+    "embedded_source_payload_sha256": "330acc8c83e2bd173b34e32ee13049880a4d4d8030732d707345ac8f8c57cc76",
+    "enable_internet": false,
+    "is_private": true,
+    "machine_shape": "NvidiaL4",
+    "metadata_sha256": "da32ce81b2b811c98c6f1f61bf5e94333290b96ee1edc0582426f1d7107f2452",
+    "requested_version": 1,
+    "scope": "Saved configuration evidence; no independent network-reachability probe was performed.",
+    "source_notebook_sha256": "d31e9b1f129606250d26d2a60e0cd53b8afc52ca0babf41a1fa789b191a7c016"
+  },
+  "split_identity": {
+    "P01_P02_full_confirmatory_metadata_equal": true,
+    "P01_manifest_sha256": "ec0fafad7a6fa49675663c2da69bbe2792d805f523fcff2aa2e2479651ff373a",
+    "P01_per_repo": 8,
+    "P01_sorted_IDs_sha256": "5ed908a6cf510c0c54436dfa8eaf4dc43476f2d9fe2fbce3fb1c42bf722c6643",
+    "P02_manifest_sha256": "4b43c50d589339a59603d7e099879421cc781e89a9a33b424e1f506259dfc6cd",
+    "P02_per_repo": 8,
+    "P02_sorted_IDs_sha256": "5ed908a6cf510c0c54436dfa8eaf4dc43476f2d9fe2fbce3fb1c42bf722c6643",
+    "all_three_sorted_ID_lists_equal": true,
+    "confirmatory_count": 24,
+    "pilot_plan_per_repo": 8,
+    "pilot_run_plan_sha256": "b9d38eb6fa0f243e8ccbdd639d0e7fd4e010d039fe95cfe474d0c341b6337cd5",
+    "pilot_sorted_IDs_sha256": "5ed908a6cf510c0c54436dfa8eaf4dc43476f2d9fe2fbce3fb1c42bf722c6643",
+    "pilot_source_payload_sha256": "ea5830460eb79275416128e90ff6dc8ab5451d9dd7975758785c40440fa8eef9",
+    "sorted_IDs_serialization": "Python sorted(instance_id strings), then json.dumps(list, sort_keys=True, separators=(\",\", \":\"), ensure_ascii=True), encoded as UTF-8; SHA256 of those bytes.",
+    "sorted_IDs_sha256": "5ed908a6cf510c0c54436dfa8eaf4dc43476f2d9fe2fbce3fb1c42bf722c6643"
+  }
+}

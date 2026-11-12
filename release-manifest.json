@@ -1,0 +1,27 @@
+{
+  "allowlist": [
+    "README.md",
+    "paper.md",
+    "before-scoring-the-agent.pdf",
+    "reference-acceptance.png",
+    "thumbnail.png",
+    "paper/supporting-evidence.json"
+  ],
+  "author": "Akadri Oluseyi",
+  "markdown_export_change": "Only the relative figure URL is rewritten to the public bundle location.",
+  "paper_word_tokens_conservative": 2655,
+  "pdf_pages": 7,
+  "pdf_renderer": "WeasyPrint 70.0 in an isolated disposable container",
+  "release_scope": "Paper, aggregate figures and supporting metadata only; fresh Git history; no raw data, reference code, test source, traces, credentials or private research history.",
+  "reviewed_manuscript_sha256": "c3c5c14debd0c664275a519eff3a8c9398fc59200c6404056bffd8a105d168ba",
+  "reviewed_source_commit": "968ddd6dcf0771b6392476cf21cc35fb15c8594e",
+  "sha256": {
+    "README.md": "1c866a8f8f930636363abdccb6823a794c1abefa868bc2bc41850e9a81b4f5d3",
+    "before-scoring-the-agent.pdf": "8d6b0e9a09abfaf9c80a7f4736685d4be258ab3308ddb22fc8f9fb744fdf3129",
+    "paper.md": "e2389483d711be0d35bf22c36e25361c9cde14d4ecbafc9128958bfde03da484",
+    "paper/supporting-evidence.json": "93ced73e277d24eccf7bc5545a4206d289701b292d1d5fc957cae675e75f686b",
+    "reference-acceptance.png": "d3bcb8b0e3a70456f155ff6dc23533acc375067ce09c0a223c6691b85472845a",
+    "thumbnail.png": "152558dbdbb971ea9e6d5ff0d60825c7caab780e32fba0fbb9c914acac933b39"
+  },
+  "thumbnail": "AI-generated editorial cover, not a scientific data plot. 560 x 280 PNG."
+}
